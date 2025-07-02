@@ -35,24 +35,6 @@ This project conducts systematic A/B testing on NYC Uber pickup data to understa
 - **Bonus**: Normalize by population or area size
 - **Business Relevance**: Regional pricing, driver supply management
 
-## 📁 Project Structure
-
-```
-NYC_uber_pickups_A-B_testing/
-├── data/
-│   ├── raw/           # Original CSV files (~20M records)
-│   ├── processed/     # Cleaned and processed data
-│   └── external/      # External data (weather, etc.)
-├── notebooks/
-│   └── 01_EDA_NYC_Uber_Dataset.ipynb  # Exploratory Data Analysis
-├── src/
-│   ├── analysis/      # A/B testing analysis modules
-│   └── utils/
-│       └── data_loader.py  # Data loading and preprocessing utilities
-├── requirements.txt   # Python dependencies
-└── README.md
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -79,26 +61,10 @@ The dataset contains over 20 million records across multiple ride-sharing servic
 - **Other services**: Lyft, Dial7, Carmel, American, etc.
 - **Total size**: ~1.7GB of data
 
-## 📈 Current Progress
 
-### ✅ Completed
-- [x] Dataset upload and organization
-- [x] Exploratory Data Analysis (EDA)
-- [x] Data preprocessing utilities
-- [x] Feature engineering framework
-- [x] Project structure setup
 
-### 🔄 In Progress
-- [ ] A/B Test 1: Rainy vs Clear Days (weather data integration needed)
-- [ ] A/B Test 2: Friday Night Effect
-- [ ] A/B Test 3: Manhattan vs Brooklyn
 
-### 📋 Next Steps
-1. Implement statistical testing framework
-2. Create bootstrapping functions
-3. Merge weather data for Test 1
-4. Execute all three A/B tests with significance testing
-5. Generate business recommendations
+
 
 ## 🔧 Key Features
 
