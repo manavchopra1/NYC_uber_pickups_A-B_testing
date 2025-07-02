@@ -61,11 +61,6 @@ The dataset contains over 20 million records across multiple ride-sharing servic
 - **Other services**: Lyft, Dial7, Carmel, American, etc.
 - **Total size**: ~1.7GB of data
 
-
-
-
-
-
 ## 🔧 Key Features
 
 - **Comprehensive EDA**: Detailed analysis of temporal and geographic patterns
